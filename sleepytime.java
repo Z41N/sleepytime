@@ -19,11 +19,11 @@ public class sleepytime {
             Robot robot = new Robot();
             while (true)
             {
-                // Randomize between 1 and 9999 seconds
+                // Randomize between 1 and 9999 milliseconds
                 int x = rand.nextInt(10000) + 1;
-                // Randomize between 1 and 4 seconds
+                // Randomize between 1 and 4 milliseconds
                 int y = rand.nextInt(5) + 1;
-                // Randomize between 1 and 4 seconds
+                // Randomize between 1 and 4 milliseconds
                 int z = rand.nextInt(5) + 1;
 
                 // How long program waits till next iteration
