@@ -5,7 +5,7 @@
 - That's it
 
 # How to run:
-- Download `sleepytime.java` from the link I probably sent you
+- Download `sleepytime.java` by going [HERE](https://github.com/Z41N/sleepytime/blob/main/sleepytime.java) then clicking the download button at the top right
 - Put `sleepytime.java` somewhere you'll remember (it's just a regular file, relax)
 - Open a terminal (Mac) or PowerShell (Windows) window (google it noob)
 - In the terminal/shell, navigate to where you put the file (`cd /documents/someFolder/idk`)
