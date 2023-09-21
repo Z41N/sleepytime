@@ -20,18 +20,19 @@ public class sleepytime {
             while (true)
             {
                 // Randomize between 1 and 9999 milliseconds
-                int x = rand.nextInt(10000) + 1;
-                // Randomize between 1 and 4 milliseconds
-                int y = rand.nextInt(5) + 1;
-                // Randomize between 1 and 4 milliseconds
-                int z = rand.nextInt(5) + 1;
+                int sleepTimeInMillis = rand.nextInt(10000) + 1;
+
+                // Randomize between values 1 and 4
+                // Used only for division math so we can randomize where the pointer goes
+                int widthModifier = rand.nextInt(5) + 1;
+                int heightModifier = rand.nextInt(5) + 1;
 
                 // How long program waits till next iteration
-                Thread.sleep(x);
+                Thread.sleep(sleepTimeInMillis);
 
                 // Time to move the mouse! But make it spicy...
                 // We don't want to go out of bounds, so lets do some logic using the screen size
-                robot.mouseMove((int) Toolkit.getDefaultToolkit().getScreenSize().getWidth() / y, (int) Toolkit.getDefaultToolkit().getScreenSize().getHeight() / z);
+                robot.mouseMove((int) Toolkit.getDefaultToolkit().getScreenSize().getWidth() / widthModifier, (int) Toolkit.getDefaultToolkit().getScreenSize().getHeight() / heightModifier);
             }
 
         // Mandatory catch because we're using AWT class
