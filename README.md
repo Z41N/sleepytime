@@ -1,7 +1,7 @@
 # how to engage sleepytime
 
 # Prerequisites:
-- Java 8 or higher; just download [here](https://www.oracle.com/java/technologies/downloads/) and install
+- Java 8 or higher; just download [here](https://www.oracle.com/java/technologies/downloads/) and install [Try running `which java` in your prompt to see if you already have it]
 - That's it
 
 # How to run:
